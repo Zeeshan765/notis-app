@@ -1,0 +1,63 @@
+.custom-toolbar {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    /* background-color: #1cdba1 !important; */
+  }
+  .custom-wrapper {
+    /* width: 700px; */
+    border: 1px solid#ccc;
+    /* margin: 10px; */
+    min-height: 190px;
+    border-radius: 5px;
+  }
+  .rdw-editor-main{
+   /* background-color: red; */
+   overflow: auto !important;
+   height:140px !important;
+  }
+  .custom-editor {
+    border: 2px solid #ccc;
+  }
+  .editProfile {
+    border-bottom: 1px solid rgb(143, 143, 143);
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .editProfile:hover {
+    background-color: #1cdba1;
+    transition: 0.5s;
+    border-radius: 12px;
+  }
+  .custom-blockType-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .custom-blockType-dropdown .rdw-dropdown-wrapper {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: inline-block;
+    padding: 6px 12px;
+  }
+  
+  .custom-blockType-dropdown .rdw-dropdown-selectedtext {
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .custom-blockType-dropdown .rdw-dropdown-carettoopen,
+  .custom-blockType-dropdown .rdw-dropdown-carettoclose {
+    border-top: 6px solid #333;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    display: inline-block;
+    height: 0;
+    margin-left: 8px;
+    width: 0;
+  }
